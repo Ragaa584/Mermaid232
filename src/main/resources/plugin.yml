@@ -1,0 +1,16 @@
+name: MermaidPlugin
+version: '1.0.0'
+main: com.mermaid.plugin.MermaidPlugin
+api-version: '1.21'
+author: You
+
+commands:
+  mermaid:
+    description: Give or remove the Mermaid Charm
+    usage: /mermaid <give|remove> <player>
+    permission: mermaid.give
+
+permissions:
+  mermaid.give:
+    description: Allows using the Mermaid Charm command
+    default: op
