@@ -1,0 +1,16 @@
+name: MermaidPlugin
+version: '1.0.0'
+main: com.mermaid.plugin.MermaidPlugin
+api-version: '1.21'
+author: You
+
+commands:
+  mermaid:
+    description: Open the pet menu, or (admin) give/remove the Mermaid Charm
+    usage: /mermaid  (opens pet menu)  |  /mermaid <give|remove> <player>  (admin)
+    permission: null
+
+permissions:
+  mermaid.give:
+    description: Allows using the Mermaid Charm command
+    default: op
